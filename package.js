@@ -2,7 +2,7 @@ Package.describe({
   summary: "A utility library delivering consistency, customization, performance, & extras. Can be a drop-in place replacement for Underscore.js."
 });
 
-Npm.depends({'lodash': '1.3.1'});
+Npm.depends({'lodash': '2.4.1'});
 
 Package.on_use(function (api) {
   api.use('meteor', {unordered: true});
